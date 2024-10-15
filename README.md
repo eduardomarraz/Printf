@@ -55,9 +55,14 @@ La meta es crear una libreria que contenga todo nuestro codigo para poder utiliz
 
 Para crear esta libreria seguimos los siguientes pasos:
 
-	git clone https://github.com/eduardomarraz/Printf
-	cd Printf
-	make
+```bash
+git clone https://github.com/eduardomarraz/Printf
+cd Printf
+make
+Descomentar el main.c (Para probar los testing)
+cc main.c libftprintf.a
+./a.out (Ejecutable del main.c)
+```
 
 Al revisar el directorio, en alguna parte encontraras la libreria: *libftprintf.a*
 
